@@ -3,13 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <title>Crowd funding page</title>
   </head>
   <body>
-    <img src="images/icon-bookmark.svg" alt="" />
-    <img src="images/icon-check.svg" alt="" />
-    <img src="images/icon-close-menu.svg" alt="" />
-    <img src="images/logo-mastercraft.svg" alt="" />
-    <img src="images/icon-close-modal.svg" alt="" />
+    <header>
+      <nav id="desktop-nav">
+        <img src="/images/logo.svg" alt="crowdfund Logo" />
+
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#discover">Discover</a></li>
+            <li><a href="#get started">Get Started</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <img src="/images/logo.svg" alt="crowdfund Logo" class="mobile-logo" />
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <ul>
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <div class="border"></div>
+              <li><a href="#discover" onclick="toggleMenu()">Discover</a></li>
+              <div class="border"></div>
+              <li>
+                <a href="get started" onclick="toggleMenu()">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="mastercraft">
+      <div class="mastercraft-bamboo">
+        <img src="images/logo-mastercraft.svg" alt="mastercraft" />
+        <h2>Mastercraft Bamboo Monitor Riser</h2>
+        <p>
+          A beautiful & handcrafted monitor stand to reduce neck and eye strain.
+        </p>
+        <div class="button-section">
+          <button class="this-project">Back this project</button>
+          <img src="images/icon-bookmark.svg" alt="bookmarked" />
+          <button class="booked">Bookmarked</button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
