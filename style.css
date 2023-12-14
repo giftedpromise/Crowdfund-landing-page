@@ -450,3 +450,19 @@ h1 {
   font-weight: 500;
   font-size: 18px;
 }
+
+.this-project1 {
+  background: var(--Moderate--cyan);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.9rem 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+  align-self: flex-start;
+}
+
+.this-project1:hover {
+  background: var(--Dark--cyan);
+}
