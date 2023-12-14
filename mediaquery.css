@@ -16,10 +16,39 @@
     position: relative;
     background-repeat: no-repeat;
     overflow-x: hidden;
+    height: 40vh;
   }
 
   #hamburger-nav {
     display: flex;
     margin-top: -2rem;
+  }
+
+  .mastercraft {
+    margin-top: -4rem;
+    width: 100%;
+  }
+
+  .this-project {
+    padding: 1.5rem 5rem;
+  }
+
+  .this-project:hover {
+    background: var(--Dark--cyan);
+  }
+
+  .bookmark-text {
+    display: none;
+  }
+
+  .bookmark-btn {
+    width: 20%;
+    height: 56px;
+    background-color: white;
+  }
+
+  .bookmark-btn img {
+    width: 56px;
+    height: 56px;
   }
 }

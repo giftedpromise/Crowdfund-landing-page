@@ -179,3 +179,198 @@ a:hover {
 .hamburger-icon span:first-child {
   transform: none;
 }
+
+.mastercraft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mastercraft-bamboo {
+  position: absolute;
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -5% 0 30% 0;
+  padding: 0 3% 2.5%;
+  border: 1px solid hsla(0, 0%, 48%, 0.3);
+  border-radius: 8px;
+}
+
+.master-logo {
+  width: 60px;
+  transform: translateY(-50%);
+}
+
+h1 {
+  font-size: 1.7rem;
+  margin: 0 0 2%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.mastercraft-bamboo p {
+  color: var(--Dark--gray);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.this-project {
+  background: var(--Moderate--cyan);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.9rem 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+  align-self: flex-start;
+}
+
+.this-project:hover {
+  background: var(--Dark--cyan);
+}
+
+.bookmark-btn {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 56px;
+  border: none;
+  border-radius: 1.875rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease-out;
+}
+.bookmark-btn:hover,
+.bookmark-btn:active {
+  opacity: 0.7;
+}
+.bookmark-btn img {
+  width: 56px;
+  height: 56px;
+}
+
+.mobile-bookmark img {
+  display: none;
+}
+
+.bookmark-text {
+  font-weight: 700;
+  text-align: center;
+  margin-left: 1rem;
+  font-size: 16px;
+  color: var(--Dark--gray);
+}
+
+.numbers {
+  width: 100%;
+}
+
+.numbers-section {
+  display: flex;
+
+  margin: 14rem auto 5rem auto;
+
+  flex-flow: column nowrap;
+
+  max-width: 800px;
+
+  padding: 0 3% 2.5%;
+  border: 1px solid hsla(0, 0%, 48%, 0.3);
+  border-radius: 8px;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.row1 {
+  border-right: 2px solid hsla(0, 0%, 48%, 0.25);
+}
+
+.row2 {
+  margin-left: 3rem;
+  border-right: 2px solid hsla(0, 0%, 48%, 0.25);
+}
+
+.row3 {
+  margin-left: 3rem;
+}
+
+.backed {
+  align-self: self-start;
+  color: var(--Black);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.row-text {
+  align-self: self-start;
+  padding-top: 0.5rem;
+  color: var(--Dark--gray);
+  font-size: 18px;
+}
+
+.column2 {
+  padding-top: 2rem;
+  width: 100%;
+}
+
+#progress-bar {
+  width: 100%;
+  overflow: hidden;
+  height: 10px;
+  border-radius: 10px;
+  border: none;
+}
+#progress-bar::-moz-progress-bar {
+  background: hsl(176, 50%, 47%);
+  border-radius: 100px;
+}
+#progress-bar::-webkit-progress-bar {
+  background: #e9e9ed;
+}
+#progress-bar::-webkit-progress-value {
+  background: hsl(176, 50%, 47%);
+  border-radius: 100px;
+}
+
+.main-content {
+  display: flex;
+
+  margin: 14rem auto 5rem auto;
+
+  flex-flow: column nowrap;
+
+  max-width: 800px;
+
+  padding: 0 3% 2.5%;
+  border: 1px solid hsla(0, 0%, 48%, 0.3);
+  border-radius: 8px;
+}
