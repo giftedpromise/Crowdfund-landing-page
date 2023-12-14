@@ -51,4 +51,47 @@
     width: 56px;
     height: 56px;
   }
+
+  .numbers-section {
+    margin-top: 19rem;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .row1,
+  .row2,
+  .row3 {
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+
+  .row1,
+  .row2 {
+    border-right: none;
+    border-bottom: 2px solid hsla(0, 0%, 48%, 0.25);
+  }
+
+  .backed {
+    align-self: center;
+  }
+
+  .row-text {
+    align-self: center;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+  .column2 {
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+  }
 }
