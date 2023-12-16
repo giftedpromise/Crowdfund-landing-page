@@ -27,10 +27,11 @@
   .mastercraft {
     margin-top: -4rem;
     width: 100%;
+    z-index: -1;
   }
 
   .this-project {
-    padding: 1.5rem 5rem;
+    padding: 1.3rem 4rem;
   }
 
   .this-project:hover {
