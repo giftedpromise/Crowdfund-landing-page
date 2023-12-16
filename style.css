@@ -142,8 +142,8 @@ a:hover {
   flex-direction: column;
   max-height: 300px;
   color: var(--verydark--grayblue);
-  width: 330px;
-  padding-top: 0.5rem;
+  width: 320px;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   border-radius: 5px;
   margin-top: 2rem;
