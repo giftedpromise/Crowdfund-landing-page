@@ -21,11 +21,11 @@
 
   #hamburger-nav {
     display: flex;
-    margin-top: -2rem;
+    margin-top: -1rem;
   }
 
   .mastercraft {
-    margin-top: -4rem;
+    margin-top: -3rem;
     width: 100%;
     z-index: -1;
   }

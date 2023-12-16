@@ -140,10 +140,10 @@ a:hover {
 .menu-links.open {
   display: flex;
   flex-direction: column;
-  max-height: 400px;
+  max-height: 300px;
   color: var(--verydark--grayblue);
-  width: 320px;
-  padding-top: 1rem;
+  width: 330px;
+  padding-top: 0.5rem;
   padding-bottom: 1rem;
   border-radius: 5px;
   margin-top: 2rem;
